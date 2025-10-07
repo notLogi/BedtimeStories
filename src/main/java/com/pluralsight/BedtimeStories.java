@@ -21,6 +21,7 @@ public class BedtimeStories {
                 counter++;
             }
             bufferedReader.close();
+            myScanner.close();
         }
         catch(IOException e){
             System.err.println("The story does not exist.");
